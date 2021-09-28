@@ -14,6 +14,7 @@ export default function Project() {
     description,
     projectType,
     link,
+    smiley
     }`
       )
       .then((data) => setProjectData(data))
@@ -71,7 +72,8 @@ export default function Project() {
                   >
                     View The Project{" "}
                     <span role="img" area-label="right pointer text-5xl">
-                      &#129305;
+                      {project.smiley ? project.smiley : '🤙'}
+                      
                     </span>
                   </a>
                 </div>

@@ -53,6 +53,10 @@ export default {
       options: {
         layout: 'tags'
       }
+    },
+    {
+      name: 'smiley',
+      type: 'string'
     }
   ],
 }
