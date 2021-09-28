@@ -40,7 +40,7 @@ export default function SinglePost() {
     if (!singlePost) return <div className="flex text-2xl my-12 justify-center">Loading...</div>
 
   return (
-      <main className="bd-blue-200 p-12 min-h-screen">
+      <main className="bd-blue-200 pt-8 p-1 min-h-screen">
         <article className="container shedow-lg mx-auto bg-blue-100 rounded-lg">
           <header className="relative">  
             <div className="absolute h-full w-full flex item-center justify-center p-8">
@@ -60,7 +60,7 @@ export default function SinglePost() {
               alt={singlePost.name}
               className="w-full object-cover rounded-t"
               style={{height: "400px"}}
-             />
+            />
           </header>
           <div className="px-16 lg:px-48 py-12 lg:py-20 prose lg:prose-xl max-w-full">
             <BlockContent 
