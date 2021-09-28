@@ -48,7 +48,7 @@ useEffect(() => {
               {project.projectType}
               </span>
               <p className="my-6 text-lg leading-relaxed">{project.description}</p>
-              <a href={project.link} alt={project.alt} target="_blank" rel="noopener noreferrer" className="text-blue-500 font-bold hover:underline hover:text-blue-900 ">Viev The Project{" "}
+              <a href={project.link} alt={project.alt} target="_blank" rel="noopener noreferrer" className="text-blue-500 font-bold hover:underline hover:text-blue-900 ">View The Project{" "}
               <span role="img" area-label="right pointer text-5xl">&#129305;</span>
               </a>
             </div>
